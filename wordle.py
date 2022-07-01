@@ -19,7 +19,10 @@ while True:
             chars_guess = list(Guess)
             chars_answer = list(Answer)
             for count, value in enumerate(chars_guess):
-                char_counter = 0
+                # check for duplicate characters
+                guesschar_counter = 0
+                anschar_counter = 0
+                
                 if value in chars_answer:
                     chars_guess[count] = '\033[4m' + value + '\033[0m' 
                     if value == chars_answer[count]:
