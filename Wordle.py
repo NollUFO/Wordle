@@ -39,5 +39,4 @@ while True:
         else:
             print("Your word must contain five letters")
     else:
-
         print("Enter a real word")    
