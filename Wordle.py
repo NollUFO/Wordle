@@ -32,11 +32,12 @@ while True:
                         answerletters[j] = "."
                         guessletters[i] = "."
                         break     
-            print(" ".join(output))             
+            print(" ".join(output))                        
             if Guess in Answer:
                 print("Congratulations :)")
                 break   
         else:
             print("Your word must contain five letters")
     else:
+
         print("Enter a real word")    
