@@ -14,4 +14,3 @@ if is_word(guess, Content):
 guesslist = list(guess)
 answerlist = list(Answer)
 charcounter 
-
